@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.8.0",
+    "path": "^0.12.7",
+    "twilio": "^3.83.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
